@@ -1,3 +1,3 @@
 # POE2 Filters
 
-For Kirby
+No Longer For Kirby
