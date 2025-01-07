@@ -1,0 +1,7 @@
+*.ini
+*.credentials
+.idea
+Neversink-*
+OnlineFilters
+poe2_production
+Screenshots
