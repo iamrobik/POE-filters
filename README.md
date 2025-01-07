@@ -1,3 +1,3 @@
 # POE2 Filters
 
-No Longer For Kirby
+Robik, Kirby and Ivan Filters
