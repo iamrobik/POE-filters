@@ -316,6 +316,18 @@ SetFontSize 40
 Show
 Class "Currency"
 BaseType "Breach Splinter"
+StackSize >= 8
+SetFontSize 45
+SetTextColor 0 0 0 255
+SetBorderColor 0 0 0 255
+SetBackgroundColor 249 150 25 255
+PlayAlertSound 2 300
+PlayEffect White
+MinimapIcon 2 Yellow Circle
+
+Show
+Class "Currency"
+BaseType "Breach Splinter"
 StackSize >= 2
 SetFontSize 40
 SetTextColor 255 255 255 255
