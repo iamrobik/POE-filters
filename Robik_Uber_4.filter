@@ -608,7 +608,7 @@ SetBackgroundColor 20 20 0 255
 
 Show
 Rarity = Rare
-BaseType = "Expert Dualstring" "Expert Zealot"
+BaseType = "Expert Dualstring"
 SetFontSize 45
 SetBorderColor 0 240 190 255
 SetBackgroundColor 20 20 0 255
