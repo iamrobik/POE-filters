@@ -430,6 +430,11 @@ PlayEffect Pink
 MinimapIcon 1 Pink Square
 SetFontSize 40
 
+Hide
+BaseType "Waystone"
+Rarity = Magic
+Identified False
+
 Show
 BaseType "Waystone" 
 Rarity <= Rare
@@ -478,7 +483,7 @@ Rarity Normal
 BaseType "Stellar Amulet" "Sapphire Ring"
 SetFontSize 35
 
-Show
+Hide
 Rarity Normal
 BaseType "Siphoning Wand" "Attuned Wand"
 ItemLevel >= 81
