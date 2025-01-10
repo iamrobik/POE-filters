@@ -82,7 +82,26 @@ SetFontSize 40
 
 Show
 Class "Currency"
-BaseType "Distilled" "Essence of" "Omen of"
+BaseType "Essence of Electricity" "Essence of Haste"
+SetTextColor 0 0 0 255
+SetBorderColor 0 0 0 255
+SetBackgroundColor 240 90 35 255
+PlayAlertSound 2 300
+PlayEffect Yellow
+MinimapIcon 1 Yellow Circle
+SetFontSize 45
+
+Hide
+Class "Currency"
+BaseType "Essence of " "Essence of "
+SetFontSize 45
+SetTextColor 255 207 132
+SetBorderColor 255 207 132
+SetBackgroundColor 76 51 12
+
+Show
+Class "Currency"
+BaseType "Distilled" "Omen of"
 SetFontSize 45
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
@@ -206,6 +225,11 @@ MinimapIcon 2 Cyan Triangle
 PlayEffect Cyan
 
 # Special A Tier - Rare Jewels
+
+Hide
+Class "Jewel"
+BaseType "Ruby"
+
 Show
 Class "Jewel"
 SetTextColor 255 255 255
@@ -587,6 +611,13 @@ Hide
 BaseType = "Long Quarter" "Barrier Quarter" "Serrated Quiver" "Toxic Quiver" "Blunt Quiver" "Crackling Quarter"
 
 Show
+Rarity = Rare
+BaseType = "Volant Quiver" "Primed Quiver"
+SetFontSize 40
+SetBorderColor 0 240 190 255
+SetBackgroundColor 20 20 0 255
+
+Hide
 Rarity = Rare
 Class = "Quiver"
 SetFontSize 40
