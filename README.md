@@ -7,10 +7,12 @@ To Do:
 - Add boots
 
 Changelog 1/10/25:
-- Removed low tier currency (Robik not Ivan)
+- Removed low tier currency
 - Removed Quivers (All)
 - Removed Armour bases (Ivan)
 - Hid Bows and Maces
+- Hid Breach Splinters
+- Hid T14 (Ivan)
 
 Changelog 1/9/25:
 - Removed Quivers other than Volant and Primed (Kirby)

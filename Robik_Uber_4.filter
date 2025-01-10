@@ -351,16 +351,16 @@ SetBorderColor 255 255 255 255
 SetBackgroundColor 180 15 200
 MinimapIcon 2 White Circle
 
-Show
+Hide
 Class "Currency"
 BaseType "Breach Splinter"
 StackSize = 1
-SetFontSize 30
-SetTextColor 255 255 255 255
-SetBorderColor 255 255 255 255
-SetBackgroundColor 180 15 200
-MinimapIcon 1 Grey Kite
-AreaLevel >= 65
+#SetFontSize 30
+#SetTextColor 255 255 255 255
+#SetBorderColor 255 255 255 255
+#SetBackgroundColor 180 15 200
+#MinimapIcon 1 Grey Kite
+#AreaLevel >= 65
 
 
 Show

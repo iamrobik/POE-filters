@@ -286,7 +286,7 @@ MinimapIcon 1 White Circle
 # Currency Tier C: Vaal, Chaos, Exalt, Exotic
 Show
 Class "Currency"
-BaseType  "Armourer's Scrap" "Chance Shard" "Vaal Orb" "Orb of Alchemy"
+BaseType  "Armourer's Scrap" "Chance Shard"
 SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 210 178 135 255
@@ -316,7 +316,7 @@ SetFontSize 40
 Show
 Class "Currency"
 BaseType "Breach Splinter"
-StackSize >= 8
+StackSize >= 6
 SetFontSize 45
 SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
@@ -335,16 +335,16 @@ SetBorderColor 255 255 255 255
 SetBackgroundColor 180 15 200
 MinimapIcon 2 White Circle
 
-Show
+Hide
 Class "Currency"
 BaseType "Breach Splinter"
 StackSize = 1
-SetFontSize 30
-SetTextColor 255 255 255 255
-SetBorderColor 255 255 255 255
-SetBackgroundColor 180 15 200
-MinimapIcon 1 Grey Kite
-AreaLevel >= 65
+#SetFontSize 30
+#SetTextColor 255 255 255 255
+#SetBorderColor 255 255 255 255
+#SetBackgroundColor 180 15 200
+#MinimapIcon 1 Grey Kite
+#AreaLevel >= 65
 
 
 Show
@@ -359,7 +359,7 @@ MinimapIcon 2 Grey Circle
 
 Hide
 Class "Currency"
-BaseType "Wisdom" "Shard" "Aug" "Orb of Transmutation" "Lesser Jeweller's Orb" "Arcanist's Etcher" "Blacksmith's Whetstone" "Artificer's Orb" "Regal Orb"
+BaseType "Wisdom" "Shard" "Aug" "Orb of Transmutation" "Lesser Jeweller's Orb" "Arcanist's Etcher" "Blacksmith's Whetstone" "Artificer's Orb" "Regal Orb" "Vaal Orb" "Orb of Alchemy"
 AreaLevel >= 65
 
 Show
@@ -427,7 +427,7 @@ Show
 BaseType "Waystone" 
 Rarity <= Rare
 AnyEnchantment True
-WaystoneTier >= 14
+WaystoneTier >= 15
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 180 45 123 255
