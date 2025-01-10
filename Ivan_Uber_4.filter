@@ -286,7 +286,7 @@ MinimapIcon 1 White Circle
 # Currency Tier C: Vaal, Chaos, Exalt, Exotic
 Show
 Class "Currency"
-BaseType  "Armourer's Scrap" "Chance Shard" "Vaal Orb" "Orb of Alchemy" "Regal Orb"
+BaseType  "Armourer's Scrap" "Chance Shard" "Vaal Orb" "Orb of Alchemy"
 SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 210 178 135 255
@@ -359,7 +359,7 @@ MinimapIcon 2 Grey Circle
 
 Hide
 Class "Currency"
-BaseType "Wisdom" "Shard" "Aug" "Orb of Transmutation" "Lesser Jeweller's Orb" "Arcanist's Etcher" "Blacksmith's Whetstone" "Artificer's Orb"
+BaseType "Wisdom" "Shard" "Aug" "Orb of Transmutation" "Lesser Jeweller's Orb" "Arcanist's Etcher" "Blacksmith's Whetstone" "Artificer's Orb" "Regal Orb"
 AreaLevel >= 65
 
 Show
@@ -548,10 +548,10 @@ BaseType "Cultist"
 AreaLevel >= 65
 
 #Hide All Armour Bases
-#Hide
-#BaseArmour > 0
-#BaseEvasion = 0
-#BaseEnergyShield = 0
+Hide
+BaseArmour > 0
+BaseEvasion = 0
+BaseEnergyShield = 0
 
 #Hide All Armour/Evasion Bases
 Hide
@@ -589,13 +589,19 @@ BaseType = "Long Quarter" "Barrier Quarter" "Serrated Quiver" "Toxic Quiver" "Bl
 
 Show
 Rarity = Rare
+BaseType = "Volant Quiver" "Primed Quiver"
+SetFontSize 40
+SetBorderColor 0 240 190 255
+SetBackgroundColor 20 20 0 255
+
+Hide
+Rarity = Rare
 Class = "Quiver"
 SetFontSize 40
 SetBorderColor 0 240 190 255
 SetBackgroundColor 20 20 0 255
 
-
-Show
+Hide
 Rarity = Rare
 BaseType = "Expert Dualstring" "Expert Leaden" "Expert Crumbling"
 SetFontSize 45

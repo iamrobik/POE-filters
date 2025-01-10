@@ -2,10 +2,20 @@
 
 Robik, Kirby and Ivan Filters
 
+To Do:
+- Hide uniques
+- Add boots
+
+Changelog 1/10/25:
+- Removed low tier currency (Robik not Ivan)
+- Removed Quivers (All)
+- Removed Armour bases (Ivan)
+- Hid Bows and Maces
+
 Changelog 1/9/25:
-- Removed Quivers other than Volant and Primed
-- Changed Essence icon
-- Removed Ruby Jewels
+- Removed Quivers other than Volant and Primed (Kirby)
+- Changed Essence icon (Kirby)
+- Removed Ruby Jewels (Kirby)
 
 Changelog 1/8/25:
 - Hid Zealotry Bows
